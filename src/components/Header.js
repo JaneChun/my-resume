@@ -6,7 +6,7 @@ function Header() {
 		<>
 			<StyledHeader>
 				<HeaderTitle>천지은</HeaderTitle>
-				<HeaderSubtitle>안녕하세요, ...</HeaderSubtitle>
+				<HeaderSubtitle>안녕하세요, 프론트엔드 개발자 천지은입니다.</HeaderSubtitle>
 			</StyledHeader>
 
 			<SubHeader>

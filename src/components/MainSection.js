@@ -65,7 +65,55 @@ function MainSection() {
 				</DescriptionList>
 			</DescriptionText>
 
+			<MainTitle>Projects</MainTitle>
+			<TitleWrapper>
+				<Title>🌴 모동숲 마켓</Title>
+				<SubTitle>솔로 프로젝트</SubTitle>
+			</TitleWrapper>
+			<SubTitle>닌텐도 게임 “모여봐요 동물의 숲” 아이템 거래 웹앱</SubTitle>
+
+			<Row>
+				<Label>Period</Label>
+				<Value>2023.03 ~ 2023.04</Value>
+			</Row>
+
+			<Row>
+				<Label>Info</Label>
+				<ValueColumn>
+					<Link href='https://janechun.github.io/animal-crossing-trading-app'>배포 링크</Link>
+					<Divider> / </Divider>
+					<Link href='https://github.com/JaneChun/animal-crossing-trading-app'>GitHub Repository</Link>
+				</ValueColumn>
+			</Row>
+
+			<DescriptionTitle>기술 스택</DescriptionTitle>
+			<DescriptionText>
+				<NestedList>
+					<NestedItem>TypeScript, React, Tailwind CSS, Firebase, Github Actions</NestedItem>
+				</NestedList>
+			</DescriptionText>
+
+			<DescriptionTitle>주요 기능</DescriptionTitle>
+			<NestedList>
+				<NestedItem>Firebase를 이용한 소셜 로그인, 로그아웃, 회원 탈퇴, 회원 정보 수정</NestedItem>
+				<NestedItem>Firebase Realtime Database를 이용한 실시간 채팅</NestedItem>
+				<NestedItem>게시글 CRUD</NestedItem>
+				<NestedItem>아이템 검색</NestedItem>
+				<NestedItem>Github Actions를 이용한 배포 자동화</NestedItem>
+			</NestedList>
+
 			<MainTitle>Education</MainTitle>
+
+			<TitleWrapper>
+				<Title>코드스테이츠(Code States)</Title>
+				<SubTitle>프론트엔드 부트캠프 41기</SubTitle>
+			</TitleWrapper>
+
+			<Row className='last'>
+				<Label>Period</Label>
+				<Value>2022.08 ~ 2023.02</Value>
+			</Row>
+
 			<TitleWrapper>
 				<Title>한양대학교(ERICA)</Title>
 				<SubTitle>영미언어문화학과</SubTitle>
@@ -75,31 +123,17 @@ function MainSection() {
 				<Label>Period</Label>
 				<Value>2017.03 ~ 2022.08</Value>
 			</Row>
-			<Row className='last'>
-				<Label>GPA</Label>
-				<Value>3.8 / 4.5</Value>
-			</Row>
-
-			<TitleWrapper>
-				<Title>코드스테이츠(Code States)</Title>
-				<SubTitle>프론트엔드 부트캠프 41기</SubTitle>
-			</TitleWrapper>
-
 			<Row>
-				<Label>Period</Label>
-				<Value>2022.08 ~ 2023.02</Value>
-			</Row>
-			<Row className='last'>
 				<Label>GPA</Label>
 				<Value>3.8 / 4.5</Value>
 			</Row>
 
 			<MainTitle>Certicates</MainTitle>
 			<DescriptionList>
-				<DescriptionItem>
+				{/* <DescriptionItem>
 					<ItemLabel>AWS Certified SAA</ItemLabel>
 					<ItemValue>2024.12.__</ItemValue>
-				</DescriptionItem>
+				</DescriptionItem> */}
 				<DescriptionItem>
 					<ItemLabel>정보처리기사</ItemLabel>
 					<ItemValue>2024.06.18</ItemValue>
@@ -122,12 +156,12 @@ const StyledMain = styled.main``;
 const MainTitle = styled.h2`
 	font-size: 2.5rem;
 	margin-bottom: 0;
-	margin-top: 50px;
+	margin-top: 60px;
 	font-weight: 800;
 `;
 
 const TitleWrapper = styled.div`
-	margin: 30px 0 20px 0;
+	margin: 20px 0;
 	display: flex;
 	align-items: end;
 `;
@@ -201,7 +235,7 @@ const NestedItem = styled.li`
 
 const ItemLabel = styled.span`
 	display: inline-block;
-	width: 84%;
+	width: 83%;
 `;
 const ItemValue = styled.span``;
 
@@ -214,6 +248,27 @@ const GitHubLink = styled.a`
 	&:hover {
 		color: #2b6cb0;
 		border-bottom-color: #2b6cb0;
+	}
+`;
+
+const ValueColumn = styled.div`
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+`;
+
+const Divider = styled.span`
+	padding: 0 0.5rem;
+	color: #718096;
+`;
+
+const Link = styled.a`
+	color: #0687f0;
+	text-decoration: none;
+	transition: 0.3s ease;
+
+	&:hover {
+		color: #0366d6;
 	}
 `;
 
