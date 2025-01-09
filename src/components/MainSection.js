@@ -24,28 +24,45 @@ function MainSection() {
 			</Row>
 
 			<DescriptionTitle>주요 업무</DescriptionTitle>
-			<DescriptionText>기존 기능 고도화 및 유지보수, 신규 기능 개발</DescriptionText>
+			<DescriptionText>
+				기존 기능 고도화 및 유지보수, 신규 기능 개발
+			</DescriptionText>
 
 			<DescriptionTitle>주요 기여</DescriptionTitle>
 			<DescriptionList>
 				<DescriptionItem>프론트엔드 개발 및 유지보수:</DescriptionItem>
 				<NestedList>
-					<NestedItem>데이터 조회를 위한 검색 필터 및 그리드 사용에 능숙</NestedItem>
+					<NestedItem>
+						데이터 조회를 위한 검색 필터 및 그리드 사용에 능숙
+					</NestedItem>
 					<NestedItem>Apache ECharts를 활용한 데이터 시각화 경험</NestedItem>
-					<NestedItem>FullCalendar를 활용한 캘린더 기반 일정 관리 및 유지보수 프로세스 구현</NestedItem>
+					<NestedItem>
+						FullCalendar를 활용한 캘린더 기반 일정 관리 및 유지보수 프로세스
+						구현
+					</NestedItem>
 					<NestedItem>MapTiler를 활용한 지도 기능 구현 경험</NestedItem>
 				</NestedList>
 
 				<DescriptionItem>서비스 배포 및 운영:</DescriptionItem>
 				<NestedList>
-					<NestedItem>System daemon을 활용한 백그라운드 서비스 배포 및 운영 관리</NestedItem>
+					<NestedItem>
+						System daemon을 활용한 백그라운드 서비스 배포 및 운영 관리
+					</NestedItem>
 				</NestedList>
 
 				<DescriptionItem>업무 자동화 도입:</DescriptionItem>
 				<NestedList>
-					<NestedItem>Playwright를 통한 스크린샷 자동화로 보고서 작성 프로세스를 자동화</NestedItem>
-					<NestedItem>Node.js로 보고서에 필요한 데이터를 Excel 파일로 자동 다운로드하는 프로그램 개발하여 운영 지원</NestedItem>
-					<NestedItem>Cron과 Slackbot으로 일일 이벤트 모니터링 및 자동 보고서 전송을 통해 운영 효율성 증대</NestedItem>
+					<NestedItem>
+						Playwright를 통한 스크린샷 자동화로 보고서 작성 프로세스를 자동화
+					</NestedItem>
+					<NestedItem>
+						Node.js로 보고서에 필요한 데이터를 Excel 파일로 자동 다운로드하는
+						프로그램 개발하여 운영 지원
+					</NestedItem>
+					<NestedItem>
+						Cron과 Slackbot으로 일일 이벤트 모니터링 및 자동 보고서 전송을 통해
+						운영 효율성 증대
+					</NestedItem>
 				</NestedList>
 			</DescriptionList>
 
@@ -55,7 +72,8 @@ function MainSection() {
 					<DescriptionItem>Frontend: </DescriptionItem>
 					<NestedList>
 						<NestedItem>
-							Vue.js, Sass, Bootstrap, EasyUI, Apache ECharts, FullCalendar, MapLibre GL JS, Mapbox GL Draw, Carbone, exceljs, pdfmake
+							Vue.js, Sass, Bootstrap, EasyUI, Apache ECharts, FullCalendar,
+							MapLibre GL JS, Mapbox GL Draw, Carbone, exceljs, pdfmake
 						</NestedItem>
 					</NestedList>
 					<DescriptionItem>Etc:</DescriptionItem>
@@ -80,22 +98,30 @@ function MainSection() {
 			<Row>
 				<Label>Info</Label>
 				<ValueColumn>
-					<Link href='https://janechun.github.io/animal-crossing-trading-app'>배포 링크</Link>
+					<Link href='https://janechun.github.io/animal-crossing-trading-app'>
+						배포 링크
+					</Link>
 					<Divider> / </Divider>
-					<Link href='https://github.com/JaneChun/animal-crossing-trading-app'>GitHub Repository</Link>
+					<Link href='https://github.com/JaneChun/animal-crossing-trading-app'>
+						GitHub Repository
+					</Link>
 				</ValueColumn>
 			</Row>
 
 			<DescriptionTitle>기술 스택</DescriptionTitle>
 			<DescriptionText>
 				<NestedList>
-					<NestedItem>TypeScript, React, Tailwind CSS, Firebase, Github Actions</NestedItem>
+					<NestedItem>
+						TypeScript, React, Tailwind CSS, Firebase, Github Actions
+					</NestedItem>
 				</NestedList>
 			</DescriptionText>
 
 			<DescriptionTitle>주요 기능</DescriptionTitle>
 			<NestedList>
-				<NestedItem>Firebase를 이용한 소셜 로그인, 로그아웃, 회원 탈퇴, 회원 정보 수정</NestedItem>
+				<NestedItem>
+					Firebase를 이용한 소셜 로그인, 로그아웃, 회원 탈퇴, 회원 정보 수정
+				</NestedItem>
 				<NestedItem>Firebase Realtime Database를 이용한 실시간 채팅</NestedItem>
 				<NestedItem>게시글 CRUD</NestedItem>
 				<NestedItem>아이템 검색</NestedItem>
@@ -130,10 +156,10 @@ function MainSection() {
 
 			<MainTitle>Certicates</MainTitle>
 			<DescriptionList>
-				{/* <DescriptionItem>
-					<ItemLabel>AWS Certified SAA</ItemLabel>
-					<ItemValue>2024.12.__</ItemValue>
-				</DescriptionItem> */}
+				<DescriptionItem>
+					<ItemLabel>AWS Certified Solutions Architect - Associate</ItemLabel>
+					<ItemValue>2024.12.27</ItemValue>
+				</DescriptionItem>
 				<DescriptionItem>
 					<ItemLabel>정보처리기사</ItemLabel>
 					<ItemValue>2024.06.18</ItemValue>
