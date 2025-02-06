@@ -85,6 +85,45 @@ function MainSection() {
 
 			<MainTitle>Projects</MainTitle>
 			<TitleWrapper>
+				<Title>🗂️ indexly </Title>
+				<SubTitle>솔로 프로젝트</SubTitle>
+			</TitleWrapper>
+			<SubTitle>투두 관리 앱</SubTitle>
+
+			<Row>
+				<Label>Period</Label>
+				<Value>2025.01.15 ~ 21</Value>
+			</Row>
+
+			<Row>
+				<Label>Info</Label>
+				<ValueColumn>
+					<Link href='https://apps.apple.com/us/app/indexly/id6740793736'>
+						App Store 링크
+					</Link>
+					<Divider> / </Divider>
+					<Link href='https://github.com/JaneChun/indexly?tab=readme-ov-file'>
+						GitHub Repository
+					</Link>
+				</ValueColumn>
+			</Row>
+
+			<DescriptionTitle>기술 스택</DescriptionTitle>
+			<DescriptionText>
+				<NestedList>
+					<NestedItem>React Native, Expo, expo-sqlite</NestedItem>
+				</NestedList>
+			</DescriptionText>
+
+			<DescriptionTitle>주요 기능</DescriptionTitle>
+			<NestedList>
+				<NestedItem>expo-sqlite를 이용한 투두 CRUD</NestedItem>
+				<NestedItem>FlatList 간 드래그 앤 드롭 직접 구현</NestedItem>
+			</NestedList>
+
+			<Divider />
+
+			<TitleWrapper>
 				<Title>🌴 모동숲 마켓</Title>
 				<SubTitle>솔로 프로젝트</SubTitle>
 			</TitleWrapper>
